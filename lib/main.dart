@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:prueba_flutter_bebabum/src/routes/routes.dart';
-
+import 'package:prueba_bebabum/src/pages/home_page.dart';
+import 'package:prueba_bebabum/src/pages/personaje_detalle.dart';
+ 
 void main() => runApp(MyApp());
-
+ 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        brightness: Brightness.dark,
-        primaryColor: Colors.indigoAccent,
-        accentColor: Colors.cyan,
-      ),
-      title: 'Prueba Bebabum',
       debugShowCheckedModeBanner: false,
+      title: 'StarWars',
       initialRoute: '/',
-      routes: getApplicationRoutes(),
+      routes: {
+        //Definicion de las rutas de paginas
+        '/' : ( BuildContext context ) => HomePage(),
+        'detalle' : ( BuildContext context ) => PersonajeDetalle(),
+      },
     );
   }
 }
