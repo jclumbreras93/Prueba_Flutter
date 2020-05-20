@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:prueba_bebabum/src/models/personaje_model.dart';
+import 'package:swapi_prueba_flutter/src/models/personaje_model.dart';
 
 class CardL extends StatelessWidget {
   /*Creacion de un Widget personalizado para la creacion de las

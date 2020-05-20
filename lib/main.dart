@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prueba_bebabum/src/pages/home_page.dart';
-import 'package:prueba_bebabum/src/pages/personaje_detalle.dart';
+import 'package:swapi_prueba_flutter/src/pages/home_page.dart';
+import 'package:swapi_prueba_flutter/src/pages/personaje_detalle.dart';
+
  
 void main() => runApp(MyApp());
  

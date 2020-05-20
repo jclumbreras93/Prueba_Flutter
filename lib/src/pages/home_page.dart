@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prueba_bebabum/src/providers/personajes_provider.dart';
-import 'package:prueba_bebabum/src/widgets/card_widget.dart';
+import 'package:swapi_prueba_flutter/src/providers/personajes_provider.dart';
+import 'package:swapi_prueba_flutter/src/widgets/card_widget.dart';
+
 
 class HomePage extends StatelessWidget {
 

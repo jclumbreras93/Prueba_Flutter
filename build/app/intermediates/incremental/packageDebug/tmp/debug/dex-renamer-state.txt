@@ -1,4 +1,0 @@
-#Sun May 17 14:17:46 CEST 2020
-base.0=/Users/juancarlos/Flutter/prueba_bebabum/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

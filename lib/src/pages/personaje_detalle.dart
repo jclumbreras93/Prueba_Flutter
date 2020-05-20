@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:prueba_bebabum/src/models/peliculas_model.dart';
-import 'package:prueba_bebabum/src/models/personaje_model.dart';
-import 'package:prueba_bebabum/src/providers/personajes_provider.dart';
+import 'package:swapi_prueba_flutter/src/models/peliculas_model.dart';
+import 'package:swapi_prueba_flutter/src/models/personaje_model.dart';
+import 'package:swapi_prueba_flutter/src/providers/personajes_provider.dart';
+
 
 
 class PersonajeDetalle extends StatelessWidget {
